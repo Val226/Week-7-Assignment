@@ -6,9 +6,13 @@ let ages = [3, 9, 23, 64, 2, 8, 28, 93];
 // Do not use numbers to reference the last element, find it programmatically.
 // ages[7] - ages[0] is not allowed!
 
+ages.pop(0 - 7);
 (space 0 & space 7)
 
 // Add a new age to your array and repeat the step above to ensure it is dynamic. (works for arrays of different lengths).
+
+
+
 // Use a loop to iterate through the array and calculate the average age.
 
 
@@ -17,6 +21,8 @@ let ages = [3, 9, 23, 64, 2, 8, 28, 93];
 let names = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob';]
 
 // Use a loop to iterate through the array and calculate the average number of letters per name.
+
+
 // Use a loop to iterate through the array again and concatenate all the names together, separated by spaces.
 
 // How do you access the last element of any array?
@@ -37,9 +43,10 @@ let names = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob';]
 
 // Write a function that takes two parameters, firstName and lastName, and returns a full name. The full name should be the first and the last name separated by a space.
 
-function 
+function fullName = (firstName, lastName);
 
 // Write a function that takes an array of numbers and returns true if the sum of all the numbers in the array is greater than 100.
+
 
 // Write a function that takes an array of numbers and returns the average of all the elements in the array.
 
