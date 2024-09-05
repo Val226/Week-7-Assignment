@@ -6,7 +6,7 @@ const ages = [3, 9, 23, 64, 2, 8, 28, 93];
 // Do not use numbers to reference the last element, find it programmatically.
 // ages[7] - ages[0] is not allowed!
 
-ages.pop(0 - 7);
+let subtract = ages.pop(0 - 7);
 (space 0 & space 7)
 
 // Add a new age to your array and repeat the step above to ensure it is dynamic. (works for arrays of different lengths).
