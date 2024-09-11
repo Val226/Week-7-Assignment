@@ -79,7 +79,14 @@ console.log(totalLength);
 
 // Write a function that takes two parameters, word and n, as arguments and returns the word concatenated to itself n number of times. (i.e. if I pass in 'Hello' and 3, I would expect the function to return 'HelloHelloHello').
 
-
+function helloWorld = (word, n) {
+let result  = '';
+for (let i = 0; i < n; i++) {
+result += word
+}
+return result;
+}
+console.log(helloWorld('hello',3));
 
 // Write a function that takes two parameters, firstName and lastName, and returns a full name. The full name should be the first and the last name separated by a space.
 
