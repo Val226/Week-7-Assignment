@@ -90,7 +90,7 @@ console.log(helloWorld('hello',3));
 
 // Write a function that takes two parameters, firstName and lastName, and returns a full name. The full name should be the first and the last name separated by a space.
 
-function fullName = (firstName, lastName);
+function fullName = (firstName + " " + lastName);
 
 // Write a function that takes an array of numbers and returns true if the sum of all the numbers in the array is greater than 100.
 
