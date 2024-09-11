@@ -21,6 +21,7 @@ let sum = 0;
 for (let i = 0; i < ages.length; i++);{
 sum += ages[i];
 let average = sum/ages.length;
+}
 console.log(average);
 
 // Create an array called names that contains the following values: 'Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob'.
@@ -41,6 +42,7 @@ console.log(totalLetters);
 let concatenatedNames = " ";
 for (let i = 0; i < names.length; i++) {
 concatenatedNames += names[" "];
+}
 console.log(concatenatedNames);
 
 // How do you access the last element of any array?
