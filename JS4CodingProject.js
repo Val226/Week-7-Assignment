@@ -6,24 +6,38 @@ const ages = [3, 9, 23, 64, 2, 8, 28, 93];
 // Do not use numbers to reference the last element, find it programmatically.
 // ages[7] - ages[0] is not allowed!
 
-let subtract = ages.pop(0 - 7);
-(space 0 & space 7)
+let result = ages[ages.length - 1] - ages[0];
+console.log(result):
 
 // Add a new age to your array and repeat the step above to ensure it is dynamic. (works for arrays of different lengths).
 
-
+ages.push(result);
+console.log(ages);
 
 // Use a loop to iterate through the array and calculate the average age.
 
+let sum = 0;
+
+for (let i = 0; i < ages.length; i++);{
+sum += ages[i];
+let average = sum/ages.length;
+console.log(average);
 
 // Create an array called names that contains the following values: 'Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob'.
 
-let names = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob';]
+let names = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob'];
 
 // Use a loop to iterate through the array and calculate the average number of letters per name.
 
+let totalLetters = 0;
+for (let i = 0; i < names.length; i ++); {
+totalLetters += names.length;
+}
+let averageLetters = totalLetters/names.length
+console.log(totalLetters);
 
 // Use a loop to iterate through the array again and concatenate all the names together, separated by spaces.
+
 
 // How do you access the last element of any array?
 
