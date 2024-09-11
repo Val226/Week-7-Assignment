@@ -45,19 +45,39 @@ console.log(concatenatedNames);
 
 // How do you access the last element of any array?
 
+// You access the last element of an array with the following code:
+// array.length - 1
+
 // How do you access the first element of any array?
 
-// Create a new array called nameLengths. Write a loop to iterate over the previously created names array and add the length of each name to the nameLengths array.
-    let nameLengths = [
+// You access the first element with the following code:
+// array[0]
 
-    ]
+// Create a new array called nameLengths. Write a loop to iterate over the previously created names array and add the length of each name to the nameLengths array.
+
+const nameLengths = [];
+
+for (let i = 0; i < names.length; i++) {
+nameLengths.push(names[i].length)
+}
+console.log(nameLengths);
+
 // For example:
 // let names = ["Kelly", "Sam", "Kate"];    // starting with this array
 // let nameLengths = [5, 3, 4];             // create a new array
 
 // Write a loop to iterate over the nameLengths array and calculate the sum of all the elements in the array.
 
+let totalLength = 0;
+for (let i = 0; i < nameLengths.length; i++) {
+totalLength += nameLengths[i]
+}
+console.log(totalLength);
+
+
 // Write a function that takes two parameters, word and n, as arguments and returns the word concatenated to itself n number of times. (i.e. if I pass in 'Hello' and 3, I would expect the function to return 'HelloHelloHello').
+
+
 
 // Write a function that takes two parameters, firstName and lastName, and returns a full name. The full name should be the first and the last name separated by a space.
 
