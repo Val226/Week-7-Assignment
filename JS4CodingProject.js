@@ -38,6 +38,10 @@ console.log(totalLetters);
 
 // Use a loop to iterate through the array again and concatenate all the names together, separated by spaces.
 
+let concatenatedNames = " ";
+for (let i = 0; i < names.length; i++) {
+concatenatedNames += names[" "];
+console.log(concatenatedNames);
 
 // How do you access the last element of any array?
 
