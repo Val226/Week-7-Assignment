@@ -101,6 +101,13 @@ return sum > 100;
 
 // Write a function that takes an array of numbers and returns the average of all the elements in the array.
 
+arrayAverage = 0;
+for (let i = 0; i < array.length; i++);{
+arrayAverage += array[i];
+let average = arrayAverage/array.length;
+}
+console.log(average);
+
 // Write a function that takes two arrays of numbers and returns true if the average of the elements in the first array is greater than the average of the elements in the second array.
 
 // Write a function called willBuyDrink that takes a boolean isHotOutside, and a number moneyInPocket, and returns true if it is hot outside and if moneyInPocket is greater than 10.50.
