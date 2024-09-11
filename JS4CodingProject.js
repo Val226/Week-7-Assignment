@@ -94,6 +94,10 @@ function fullName = (firstName + " " + lastName);
 
 // Write a function that takes an array of numbers and returns true if the sum of all the numbers in the array is greater than 100.
 
+function arraySum(arr) {
+const sum = arr.reduce(acc, num => acc + num, 0));
+return sum > 100;
+}
 
 // Write a function that takes an array of numbers and returns the average of all the elements in the array.
 
