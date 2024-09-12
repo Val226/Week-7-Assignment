@@ -104,9 +104,33 @@ let average = arrayAverage/array.length;
 console.log(average);
 
 // Write a function that takes two arrays of numbers and returns true if the average of the elements in the first array is greater than the average of the elements in the second array.
+const array1 = [1, 2, 3, 4, 5];
+const array2 = [8, 9, 10, 12, 16];
 
-
+function isAverageGreater(arr1, arr2) {
+  function average(array) {
+    if (array.length === 0) return 0;
+    const sum = array.reduce((acc, val) => acc + val, 0);
+    return sum / array.length;
+  }
+const avge1 = average(arr1);
+const avg2 = average(arr2);
+return avge1 > avg2;
+}
+console.log(isAverageGreater(array1, array2));
 
 // Write a function called willBuyDrink that takes a boolean isHotOutside, and a number moneyInPocket, and returns true if it is hot outside and if moneyInPocket is greater than 10.50.
 
+function willBuyDrink (isHotOutside, moneyInPocket) {
+if ((isHotOutside === yes) && (moneyInPocket > 10.50)) {
+  return true;
+} }
 // Create a function of your own that solves a problem. In comments, write what the function does and why you created it.
+
+// Function for loads of laundry
+
+let cleanLaundry = 0;
+function laundry(loadsLeft, dirtyLaundry) {
+  if (dirtyLaundry > cleanLaundry)
+    return false;
+}
